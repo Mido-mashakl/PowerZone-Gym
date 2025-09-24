@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:Arial, sans-serif;
+}
+header , footer{
+    background-color: rgb(39, 35, 35);
+    padding: 10px;
+}
+.logo{
+    color: red;
+    font-size: 25px;
+    font-weight: 900;
+}
+a{
+    text-decoration-line: none;
+    margin:5px;
+    color: white;
+}
+figure{
+    background: url("Gym.jpg") no-repeat center center/cover ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.content1{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+main{
+    padding: 40px 20px;
+    margin: 30px;
+}
+#Programs{
+    color: red;
+    margin-bottom: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.p-title{
+    color: red;
+    margin-bottom: 10px;
+}
+.p-content{
+    background-color: rgb(39, 35, 35);
+    width: 300px;
+    padding: 30px;
+}
+.contact{
+    margin: 40px;
+}
+
